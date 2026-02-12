@@ -45,3 +45,13 @@ plt.yticks(range(0,5,1))
 plt.title("Programming Languages Learned Over Time") 
 plt.savefig("histogram.png") 
 plt.show()           
+
+# Trending Temps Line Chart
+month = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
+temp = [28,32,31,40,45,55,60,65,54,43,34,30]
+plt.plot(month, temp, color="purple")
+plt.xlabel("Month", fontsize=18)
+plt.ylabel("Temp (f)", fontsize=18)
+plt.title("Alaska Ave Temp for 2018 in Alaska(F)")
+plt.savefig("noth_pole_temp.png")
+plt.show()
